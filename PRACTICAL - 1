@@ -1,1 +1,125 @@
-# MANUAL
+->     creat table table name (
+      column name 1 data type (size),
+      column name 1 data type (size),
+        .      .   .   .   .    . 
+        .      .   .   .   .    .
+        .      .   .   .   .    .
+        .      .   .   .   .    .
+->      column name 1 data type (size),
+      );
+ 
+->  creat : creats the table 
+    describ table name
+    OR
+    desc
+ 
+->  describe : shoe the table
+ 
+->  drop the table
+    drop : delet columan
+ 
+->  delet the table 
+
+->  truncate table table name 
+    truncate : clears the data of the table
+    select columan name
+    select display table data
+
+->  alter table table name add new columan name:data type(size)
+    to add new columan.
+ 
+-> alter table table name drop columan columan_name;
+   to delet a columan
+   alter table table name modify
+   (columan_name data_type(size));
+   
+   rename table_name to table_name;
+   
+
+-> creat table employee(
+   ename varchar(20),
+   salary number(20),
+   eid number(20),
+   address number(20),
+   contact_no number(10),
+   post varchar(20),
+   salary number(10);
+   mnger_id number(20)
+   );
+   
+
+A. desc employee
+   ename varchar(10),
+   salary number(20),
+   eid number(20),
+   address varchar(10),
+   contact_no number(10),
+   post varchar(20),
+   salary number(10);
+   mnger_id number(20)
+   bname varchar(10)
+  
+B. alter table employee add (city_name varchar(10));
+
+C. alter tabe employee add(d-o-j date);
+
+D. alter table employee drop columan contact_no;
+
+E. rename employee to emp;
+
+F. alter table employee modify (c_name varchar(30));
+
+G. drop table employee:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
